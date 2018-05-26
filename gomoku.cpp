@@ -905,6 +905,7 @@ board_node heuristic_func(board_node current_node, char current_player) {
             if (!timecut) {
                 result_move = select.move;
                 depth ++ ;
+                cout << depth;
             }
         }
         return result_move;
